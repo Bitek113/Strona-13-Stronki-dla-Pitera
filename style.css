@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+#container {
+  height: 200vh;
+  background-color: #935d8c;
+  background-image: url("img/overlay.png"), linear-gradient(45deg, rgb(124, 42, 50) 15%, rgb(85, 73, 117) 85%);
+  display: grid;
+  align-items: center;
+}
+
+.header {
+  margin-top: 200px;
+  height: 40vh;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header p {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 50px;
+}
+
+.header>img {
+  height: 126px;
+  width: auto;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+.content {
+  height: 100vh;
+  width: 78vw;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  border-radius: 8px;
+
+}
+
+.navigation {
+  background-color: #e6e6e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  height: 10vh;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.navigation-wrapper ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navigation-wrapper a {
+  display: inline;
+  text-decoration: none;
+  font-size: 2rem;
+  padding-right: 40px;
+  color: #636363;
+}
+
+.first_section {
+  margin-top: 80px;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 50% 42%;
+  justify-content: center;
+  border-bottom: 1px solid rgb(178, 178, 178);
+  padding-bottom: 60px;
+}
+
+.first_s-description {
+  grid-column: 1;
+  margin: 0 auto;
+  display: grid;
+  justify-items: start;
+  padding-left: 80px;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #616161;
+}
+
+.colorfull_line {
+  display: block;
+  width: 180px;
+  height: 2.5px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(164, 4, 4) 0%, rgba(252, 238, 9, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.first_s-text {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  color: #c0c0c0;
+}
+
+.learn_more_btn {
+  padding: 12px 54px;
+  background-color: #63636300;
+  border: 1px solid rgb(205, 205, 205);
+  border-radius: 12px;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  color: #c0c0c0;
+}
+
+.first_s-image img {
+  grid-column: 2;
+  height: auto;
+  width: 60%;
+  border-radius: 50%;
+  outline: 1px solid rgb(184, 184, 184);
+  outline-offset: 15px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.second_section {
+  margin: 0 auto;
+}
+
+.second_section_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
+
+.second_section_box {
+  width: 33%;
+}
